@@ -131,7 +131,7 @@
 .div-content-mb{
   margin-bottom: 40px;
   padding-bottom: 40px;
-  border-bottom: 1px solid #0060B0;
+  border-bottom: 1px solid #2B4169;
 }
 
 /* 공통 컴포넌트 */
@@ -223,7 +223,7 @@
 .img-info-long-text{
   font-size: var(--text-size-24);
   line-height: 1.5;
-  color: #0060B0;
+  color: #2B4169;
 }
 .img-info-long-text.w-60{
   width: 60%;
@@ -233,7 +233,7 @@
 
 /* sub_10 스페셜 인터뷰 */
 .img-info-list{
-  color: #0060B0;
+  color: #2B4169;
   font-size: var(--text-size-16);
 }
 .img-info-list-title{
@@ -660,6 +660,13 @@ ul .swiper-txt p{
   color: #304167;
   font-weight: 700;
 }
+.c-blue-2{
+  color: #2B4169;
+  font-weight: 700;
+}
+.c-blue-2-1{
+  color: #2B4169 !important;
+}
 
 /* sub_50 Issue Highlights */
 .sub-slide-div-2{
@@ -680,14 +687,14 @@ ul .swiper-txt p{
   margin-bottom: 15px;
 }
 .number-title{
-  color: #4F5D75;
+  color: #82908C;
   font-size: var(--text-size-32);
   font-weight: 700;
   margin-bottom: 20px;
 }
 .basic-box-title{
   width: 100%;
-  border: 1px solid #4F5D75;
+  border: 1px solid #82908C;
   border-radius: 70px;
   display: flex;
   align-items: center;
@@ -698,14 +705,14 @@ ul .swiper-txt p{
   width: 50%;
   padding: 15px 24px;
   font-size: var(--text-size-24);
-  color: #4F5D75;
+  color: #82908C;
   word-break: keep-all;
   line-height: 1.2;
 }
 .basic-box-title-li-2{
   display: flex;
   align-items: center;
-  background-color: #4F5D75;
+  background-color: #82908C;
   color: #fff;
   border-radius: 70px;
   word-break: keep-all;
@@ -720,13 +727,13 @@ ul .swiper-txt p{
 .line-arrow-line{
   width: 100%;
   height: 1px;
-  background-color: #4F5D75;
+  background-color: #82908C;
 }
 .basic-text-box{
   width: 100%;
   padding: 24px;
   font-size: var(--text-size-16);
-  color: #4F5D75;
+  color: #82908C;
   background-color: #F5F5F5;
   line-height: 1.5;
   word-break: keep-all;
@@ -958,10 +965,10 @@ ul .swiper-txt p{
   font-weight: 700;
   line-height: 1.3;
   word-break: keep-all;
-  color: #0060B0;
+  color: #2B4169;
 }
 .c-64-blue{
-  color: #0060B0;
+  color: #2B4169;
 }
 .head-box{
   display: flex;
@@ -1113,6 +1120,7 @@ ul .swiper-txt p{
   padding: 15px;
   border: 1px solid #82775c;
   position: relative;
+  cursor: pointer;
 }
 .w-qr-img{
   width: 60px;
