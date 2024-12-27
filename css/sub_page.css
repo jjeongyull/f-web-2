@@ -175,6 +175,9 @@
   padding: 5px 10px;
   border-radius: 20px;
 }
+.mo-mb-7-3{
+  margin-top: 7px;
+}
 
 /* sub_00 발간사 */
 .img-info-div{
@@ -185,6 +188,9 @@
 .img-info-div.gap-none{
 
   gap: 0;
+}
+.p-none{
+  padding: 0 !important;
 }
 .p-20{
   padding: 20px;
@@ -1220,6 +1226,9 @@ ul .swiper-txt p{
   } 
 }
 @media screen and (max-width: 720px) {
+  .mo-mb-7-3{
+    margin-top: 2px;
+  }
   .img-sub-text{
     padding: 20px 0;
   }
@@ -1252,6 +1261,10 @@ ul .swiper-txt p{
   }
   .img-info-list ul{
     width: 100%;
+    gap: 0px;
+  }
+  .m-mb-10{
+    margin-bottom: 10px;
   }
   .m-50{
     width: 50%;
