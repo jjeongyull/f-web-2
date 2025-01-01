@@ -9,6 +9,9 @@
 .w-40{
   width: 40%;
 }
+.w-30{
+  width: 30%;
+}
 .img-link{
   position: relative;
 }
@@ -128,6 +131,9 @@
 .mb-50{
   margin-bottom: 50px;
 }
+.mb-80{
+  margin-bottom: 80px;
+}
 .div-content-mb{
   margin-bottom: 40px;
   padding-bottom: 40px;
@@ -208,12 +214,19 @@
 .img-info-ing-div.w-50{
   width: 50%;
 }
+.w-50{
+  width: 50% !important;
+}
 .img-info-ing-div{
   display: flex;
   flex-direction: column;
   gap: 10px;
   color: #757575;
   width: 25%;
+}
+.img-info-ing-div.flex-40{
+
+  width: 40%;
 }
 .img-info-ing-div.flex-40 img{
   width: 100%;
@@ -604,7 +617,7 @@ ul .swiper-txt p{
 .sub-grid{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 40px;
 }
 .sub-grid-card{
   width: 100%;
@@ -1250,6 +1263,9 @@ ul .swiper-txt p{
   .img-info-ing-div, .img-info-ing-div.w-50{
     width: 100%;
   }
+  .w-50{
+    width: 100%;
+  }
   .mo-100{
     width: 100% !important;
   }
@@ -1257,6 +1273,9 @@ ul .swiper-txt p{
     width: 100% !important;
   }
   .img-info-div.mo-100 .img-info-ing-div.flex-40{
+    width: 100%;
+  }
+  .img-info-ing-div.flex-40{
     width: 100%;
   }
   .img-info-list ul{
@@ -1267,7 +1286,7 @@ ul .swiper-txt p{
     margin-bottom: 10px;
   }
   .m-50{
-    width: 50%;
+    width: 50% !important;
   }
   .section-body {
     padding-top: 30px;
