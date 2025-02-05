@@ -12,6 +12,9 @@
 .w-30{
   width: 30%;
 }
+.w-70{
+  width: 70%;
+}
 .img-link{
   position: relative;
 }
@@ -850,11 +853,20 @@ ul .swiper-txt p{
   display: flex;
   align-items: flex-end;
 }
+.w-padding{
+  width: 100%;
+  padding: 0 10px;
+  padding-bottom: 10px;
+  background: #fff;
+}
 .img-sub-text{
   padding: 20px;
   color: #757575;
-  font-size: var(--text-size-14);
+  font-size: var(--text-size-12);
   line-height: 1.5;
+}
+.mini-logo2{
+  width: 150px;
 }
 .mb-20{
   margin-bottom: 20px;

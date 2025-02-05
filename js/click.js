@@ -36,10 +36,10 @@ $(document).on('click', '#btn_down', function(e) {
   $('html, body').animate({ scrollTop: $(document).height() }, 1000); // 1초 동안 맨 아래로 이동
 });
 $(document).on('click', '#btn_go_en', function() {
-  let path = "https://eng.fki.or.kr/webzine/2410/";
+  let path = "https://eng.fki.or.kr/webzine/2412/";
   const currentPath = window.location.pathname.split('/').pop();
 
-  if(currentPath == "" || currentPath === "sub_51.html" || currentPath === "sub_50.html"){
+  if(currentPath == "" || currentPath === "sub_51.html" || currentPath === "sub_62.html"){
     path = path;
   }else{
     path = path + currentPath;
