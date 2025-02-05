@@ -160,6 +160,9 @@
   line-height: 1.2;
   word-break: keep-all;
 }
+.sub-page-title .mini-t{
+  font-size: var(--text-size-32);
+}
 .sub-p-title{
   font-size: var(--text-size-18);
   color: #1E1E1E;
@@ -187,7 +190,11 @@
 .mo-mb-7-3{
   margin-top: 7px;
 }
-
+.flex-start-text{
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+}
 /* sub_00 발간사 */
 .img-info-div{
   display: flex;
@@ -289,12 +296,14 @@
   font-size: var(--text-size-18);
   line-height: 1.5;
   color: #81765B;
-  font-weight: 700;
+  font-weight: 800;
 }
 .gold{
   color: #81765B;
 }
-
+.subTitle{
+  font-size: var(--text-size-40);
+}
 /* sub_20 글로벌 리스크 전망 */
 .gold-list-title{
   font-size: var(--text-size-18);
@@ -1202,6 +1211,9 @@ ul .swiper-txt p{
   .sub-page-title{
     font-size: var(--text-size-32);
   }
+  .sub-page-title .mini-t{
+    font-size: var(--text-size-24);
+  }
   .icon-card-div{
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1306,6 +1318,9 @@ ul .swiper-txt p{
   }
   .sub-page-title{
     font-size: var(--text-size-24);
+  }
+  .sub-page-title .mini-t{
+    font-size: var(--text-size-18);
   }
   .img-info-div{
     flex-direction: column;
